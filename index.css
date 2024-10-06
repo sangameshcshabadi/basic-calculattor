@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(246, 236, 236, 0.65);
+}
+
+#display{
+    width: 100%;
+    padding: 20px ;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: aliceblue;
+}
+
+#calculator{
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#keys{
+    /* this is to set the numbers */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+
+}
+
+
+button{
+    /* this is to set the numbers  */
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(0, 0, 0, 40%);
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 90%);
+}
+
+button:active{
+    background-color: rgba(0, 0, 50%);
+}
+
+.operator-btn{
+    background-color: orange;
+}
+
+.operator-btn:hover{
+    background-color: rgba(255, 166, 0, 0.811);
+}
+
+.operator-btn:active{
+    background-color: rgba(255, 166, 0, 0.911);
+}
+
